@@ -1,0 +1,58 @@
+:root {
+    --background: #2f0d07;
+    --primary: #ecdd54; 
+    --secondary: #f3eae8; 
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style-type: none;
+
+
+}
+
+header {
+    background: var(--background);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 20px 0px 30px;
+    position: fixed;
+    }
+
+.logo { 
+    height: 150%;
+}
+
+.navbar, 
+.navbar-list {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.navbar {
+    gap: 150px;
+}
+
+.navbar-list {
+    gap: 50px;
+    
+}
+
+.navbar-list a {
+    color: var(--primary);
+    font-size: 20px;
+}
+
+.navbar-list li:first-child > a {
+    color: var(--secondary);
+    font-weight: 600;
+}
