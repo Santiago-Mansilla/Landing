@@ -2,7 +2,8 @@
     --background: #2f0d07;
     --primary: #ecdd54; 
     --secondary: #f3eae8; 
-    }
+    --secondary2: #efb668; 
+}
 
 * {
     margin: 0;
@@ -15,6 +16,10 @@
 
 }
 
+body {
+    background: radial-gradient(#efb668,#2f0d07);
+    
+}
 header {
     background: var(--background);
     width: 100%;
@@ -55,4 +60,111 @@ header {
 .navbar-list li:first-child > a {
     color: var(--secondary);
     font-weight: 600;
+}
+
+.main {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+
+}
+
+#portada { 
+    padding: 10%;
+    justify-content: space-between;
+    display: flex;
+    
+    
+    
+    
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    font-style: italic;
+    
+    
+    
+}
+
+.slogan h1 {
+    padding: 20px;
+}
+.imagen {
+    width: 300px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+    
+    
+    
+    
+}
+
+.info {
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    
+    
+}
+
+
+.botones {
+    margin: 40;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menú {
+    
+    margin: 10;
+    background-color: #ecdd54;
+    width: 150;
+    height: 50;
+    border-radius: 200px;
+}
+    
+.menú a {
+    color: var(--background)
+}
+    
+.pedidos {
+    
+    margin: 10;
+    background-color: #ecdd54;
+    width: 150;
+    height: 50;
+    border-radius: 200px;
+
+}
+
+.pedidos a {
+    color: var(--background)
+
+}
+
+.info2 {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: large;
+    
+
+
+    
 }
