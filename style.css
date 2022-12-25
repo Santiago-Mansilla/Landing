@@ -164,9 +164,19 @@ header {
     
 }
 
+.info2 h2 {
+    padding: 20;
+}
+
 .info2 p {
+    width: 700;
     padding: 20;
     display: flex;
     justify-content: center;
     text-align: center;
+    background-color: #ecdd54;
+    color: #2f0d07;
+    border-style: dotted;
+    
+    
 }
