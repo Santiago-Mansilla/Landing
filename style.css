@@ -32,7 +32,8 @@ header {
     }
 
 .logo { 
-    height: 150%;
+    padding: 15px;
+    height: 140px;
 }
 
 .navbar, 
